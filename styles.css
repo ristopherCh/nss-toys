@@ -1,4 +1,12 @@
 body {
     color: pink;
+<<<<<<< HEAD
+}
+
+h2 {
+    color: magenta;
+    background-color: azure;
+=======
     background: url("./img/rex.jpg")
+>>>>>>> bcac4e936345bb7bd353fd2f9e9e0cb3aeb262ca
 }
