@@ -5,6 +5,10 @@ body {
 
 h1 {
     font-size: 4em;
+    background: linear-gradient(to right,rgb(255,0,0), rgb(0, 82, 224));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1, h2, h3{
@@ -13,6 +17,27 @@ h1, h2, h3{
 
 h2 {
     color: magenta;
+     background: linear-gradient(to right,rgb(255,0,0), rgb(0, 82, 224));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.container{
+    width: 20rem;
+    height: 20rem;
+    background:white;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.container div{
+    min-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
 }
 
 h3 {
@@ -64,7 +89,6 @@ a {
     text-align: center;
     padding: 10px;
 }
-<<<<<<< HEAD
 #gameboys {
         display: flex;
         flex-wrap: wrap
@@ -76,8 +100,6 @@ a {
     flex-basis: 16%;
 
     display: flex;
-=======
 p {
     font-size: large;
->>>>>>> 52b6a1fae5d38cfc5e74b610b1a89137b127c909
 }
