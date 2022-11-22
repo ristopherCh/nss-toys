@@ -25,7 +25,7 @@ img {
     margin-right: auto;
 }
 
-#bratz {
+#bratz, #cjhs, #xmen{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -35,7 +35,21 @@ img {
     margin: 40px;
 }
 
+.furby img {
+    width: 75px;
+    height: 75px;
+}
 
+.furby img:hover {
+    width: 600px;
+    height: 600px;
+}
+
+#furbys {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 a {
     text-decoration: none;
