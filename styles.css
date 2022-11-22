@@ -107,7 +107,7 @@ a {
     flex-basis: 16%;
 }
 
-.gameboy img {
+.gameboy img, .cjh img {
     display: block;
     margin: auto;
     margin-bottom: 10px;
