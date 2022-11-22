@@ -45,3 +45,15 @@ a {
     text-align: center;
     padding: 10px;
 }
+#gameboys {
+        display: flex;
+        flex-wrap: wrap
+}
+
+#gameboy {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+
+    display: flex;
+}
