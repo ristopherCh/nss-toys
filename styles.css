@@ -21,6 +21,7 @@ h2 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+    font-size: 3em;
 }
 
 .container{
@@ -31,6 +32,7 @@ h2 {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 }
+
 .container div{
     min-width: 20rem;
     display: flex;
@@ -42,13 +44,14 @@ h2 {
 
 h3 {
     color: yellow;
+    font-size: 1.5em;
 }
 
 img {
     width: 200px;
 }
 
-div {
+#bratz div {
     background-color: rgba(57, 217, 242, 0.243)
     
 }
@@ -58,48 +61,67 @@ div {
     margin-right: auto;
 }
 
-#bratz {
+#bratz1, #bratz2, #cjhs, #xmen, #gameboys{
     display: flex;
     justify-content: space-evenly; 
-    flex-wrap: wrap;
-    image width: 40px;
-    image height: 400px;
-    background color: white;
-    
+    flex-wrap: wrap;   
 }
 
-.brat {
-    margin: 40px;
-    font color: #ff00ff;
+.brat, .gameboy, .cjh {
+    margin: 20px;
+    /* color: #ff00ff; */
     border-style: groove;
-    flex-wrap: wrap;
+}
+
+.furby img {
+    width: 75px;
+    height: 75px;
 }
 
 img {
     border-radius: 8px;
     width: 200px;
     height: 200px;
-  }
+}
+
+#furbys {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    margin-bottom: 0px;
+}
 
 a {
     text-decoration: none;
     display: block;
     color: magenta;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
-    padding: 10px;
-}
-#gameboys {
-        display: flex;
-        flex-wrap: wrap
+    padding: 0px 0px 20px 0px;
 }
 
-#gameboy {
-    padding: 2%;
-    flex-grow: 1;
+.gameboy {
     flex-basis: 16%;
+}
 
-    display: flex;
+.gameboy img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
 p {
     font-size: large;
+    color: purple;
+}
+
+.box {
+    display: block;
+}
+
+.container {
+    margin: auto;
 }
