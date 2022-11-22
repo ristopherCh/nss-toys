@@ -15,10 +15,18 @@ h2 {
     color: magenta;
 }
 
+h3 {
+    color: yellow;
+}
+
 img {
     width: 200px;
 }
 
+div {
+    background-color: rgba(57, 217, 242, 0.243)
+    
+}
 .center {
     display: block;
     margin-left: auto;
@@ -27,15 +35,26 @@ img {
 
 #bratz {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     flex-wrap: wrap;
+    image width: 40px;
+    image height: 400px;
+    background color: white;
+    
 }
 
 .brat {
     margin: 40px;
+    font color: #ff00ff;
+    border-style: groove;
+    flex-wrap: wrap;
 }
 
-
+img {
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+  }
 
 a {
     text-decoration: none;
@@ -45,6 +64,7 @@ a {
     text-align: center;
     padding: 10px;
 }
+<<<<<<< HEAD
 #gameboys {
         display: flex;
         flex-wrap: wrap
@@ -56,4 +76,8 @@ a {
     flex-basis: 16%;
 
     display: flex;
+=======
+p {
+    font-size: large;
+>>>>>>> 52b6a1fae5d38cfc5e74b610b1a89137b127c909
 }
